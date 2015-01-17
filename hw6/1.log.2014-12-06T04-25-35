@@ -1,0 +1,285 @@
+2014-12-05T21:19:07.726-0700 [initandlisten] MongoDB starting : pid=1017 port=27017 dbpath=/data/rs1 64-bit host=Jeffreys-MacBook-Pro.local
+2014-12-05T21:19:07.726-0700 [initandlisten] db version v2.6.5
+2014-12-05T21:19:07.726-0700 [initandlisten] git version: nogitversion
+2014-12-05T21:19:07.727-0700 [initandlisten] build info: Darwin miniyosemite.local 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2014-12-05T21:19:07.727-0700 [initandlisten] allocator: tcmalloc
+2014-12-05T21:19:07.727-0700 [initandlisten] options: { net: { port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs1", smallFiles: true }, systemLog: { destination: "file", path: "1.log" } }
+2014-12-05T21:19:07.729-0700 [initandlisten] journal dir=/data/rs1/journal
+2014-12-05T21:19:07.729-0700 [initandlisten] recover : no journal files present, no recovery needed
+2014-12-05T21:19:07.750-0700 [initandlisten] allocating new ns file /data/rs1/local.ns, filling with zeroes...
+2014-12-05T21:19:07.802-0700 [FileAllocator] allocating new datafile /data/rs1/local.0, filling with zeroes...
+2014-12-05T21:19:07.802-0700 [FileAllocator] creating directory /data/rs1/_tmp
+2014-12-05T21:19:07.818-0700 [FileAllocator] done allocating datafile /data/rs1/local.0, size: 16MB,  took 0.015 secs
+2014-12-05T21:19:07.839-0700 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-12-05T21:19:07.840-0700 [initandlisten] 	 added index to empty collection
+2014-12-05T21:19:07.840-0700 [initandlisten] waiting for connections on port 27017
+2014-12-05T21:19:07.842-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:07.842-0700 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-12-05T21:19:08.845-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:09.846-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:10.849-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:11.852-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:12.856-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:13.862-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:14.865-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:15.870-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:16.874-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:17.878-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:18.883-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:19.889-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:20.894-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:21.900-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:22.904-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:23.908-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:24.913-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:25.916-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:26.921-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:27.926-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:28.930-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:29.935-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:30.940-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:31.942-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:32.945-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:33.948-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:34.951-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:35.956-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:36.961-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:37.964-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:38.967-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:39.971-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:40.975-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:41.980-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:42.985-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:43.991-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:44.993-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:45.996-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:46.999-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:48.001-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:49.006-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:50.010-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:51.015-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:52.017-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:53.020-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:54.023-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:55.027-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:56.032-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:57.036-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:58.039-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:19:59.042-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:00.044-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:01.047-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:02.051-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:03.056-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:04.061-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:05.067-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:06.071-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:07.076-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:07.803-0700 [clientcursormon] mem (MB) res:10 virt:2576
+2014-12-05T21:20:07.803-0700 [clientcursormon]  mapped (incl journal view):64
+2014-12-05T21:20:07.803-0700 [clientcursormon]  connections:0
+2014-12-05T21:20:08.080-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:09.084-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:10.087-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:11.092-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:12.098-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:13.101-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:14.103-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:15.106-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:16.109-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:17.113-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:18.117-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:19.122-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:20.127-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:21.131-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:22.135-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:23.138-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:24.141-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:25.144-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:26.150-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:27.154-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:28.158-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:29.163-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:30.168-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:31.171-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:32.176-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:33.181-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:34.184-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:35.187-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:36.192-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:37.197-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:38.200-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:39.204-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:40.209-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:41.214-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:42.219-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:43.224-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:44.227-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:45.230-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:46.235-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:47.240-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:48.243-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:49.249-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:50.253-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:51.256-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:52.260-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:53.266-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:54.269-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:55.273-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:56.276-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:57.281-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:58.286-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:20:59.292-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:00.296-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:01.299-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:02.302-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:03.304-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:04.307-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:05.310-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:06.315-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:07.320-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:08.326-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:09.331-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:10.334-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:11.338-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:12.343-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:13.348-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:14.353-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:15.358-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:16.361-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:17.366-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:18.371-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:19.374-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:20.379-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:21.383-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:22.387-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:23.390-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:24.394-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:25.399-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:26.403-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:27.406-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:28.409-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:29.412-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:30.414-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:31.418-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:32.423-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:33.428-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:34.431-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:35.434-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:36.439-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:37.444-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:38.446-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:39.449-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:40.453-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:41.458-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:42.463-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:43.469-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:44.475-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:45.479-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:46.484-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:47.487-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:48.489-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:49.492-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:50.495-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:51.497-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:52.501-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:53.506-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:54.511-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:55.513-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:56.517-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:57.522-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:58.527-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:21:59.532-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:00.536-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:01.540-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:02.543-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:03.546-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:04.552-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:05.556-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:06.559-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:07.564-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:08.568-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:09.572-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:10.575-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:11.578-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:12.581-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:13.583-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:14.586-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:15.588-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:16.591-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:17.596-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:18.597-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:19.471-0700 [initandlisten] connection accepted from 10.0.3.41:51715 #1 (1 connection now open)
+2014-12-05T21:22:19.472-0700 [conn1] end connection 10.0.3.41:51715 (0 connections now open)
+2014-12-05T21:22:19.474-0700 [initandlisten] connection accepted from 10.0.3.41:51717 #2 (1 connection now open)
+2014-12-05T21:22:19.602-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:20.607-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:21.609-0700 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-12-05T21:22:21.801-0700 [initandlisten] connection accepted from 10.0.3.41:51721 #3 (2 connections now open)
+2014-12-05T21:22:21.801-0700 [conn3] end connection 10.0.3.41:51721 (1 connection now open)
+2014-12-05T21:22:22.614-0700 [rsStart] trying to contact Jeffreys-MacBook-Pro.local:27018
+2014-12-05T21:22:22.618-0700 [rsStart] replSet I am Jeffreys-MacBook-Pro.local:27017
+2014-12-05T21:22:22.618-0700 [rsStart] replSet got config version 1 from a remote, saving locally
+2014-12-05T21:22:22.618-0700 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "Jeffreys-MacBook-Pro.local:27017", priority: 0.0, slaveDelay: 5 }, { _id: 1, host: "Jeffreys-MacBook-Pro.local:27018" }, { _id: 2, host: "Jeffreys-MacBook-Pro.local:27019" } ] }
+2014-12-05T21:22:22.621-0700 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-12-05T21:22:22.621-0700 [rsStart] 	 added index to empty collection
+2014-12-05T21:22:22.622-0700 [rsStart] replSet saveConfigLocally done
+2014-12-05T21:22:22.623-0700 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-12-05T21:22:22.624-0700 [rsStart] 	 added index to empty collection
+2014-12-05T21:22:22.624-0700 [rsStart] replSet STARTUP2
+2014-12-05T21:22:22.625-0700 [rsSync] ******
+2014-12-05T21:22:22.625-0700 [rsSync] creating replication oplog of size: 64MB...
+2014-12-05T21:22:22.625-0700 [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+2014-12-05T21:22:22.862-0700 [FileAllocator] done allocating datafile /data/rs1/local.1, size: 128MB,  took 0.236 secs
+2014-12-05T21:22:22.884-0700 [rsSync] ******
+2014-12-05T21:22:22.884-0700 [rsSync] replSet initial sync pending
+2014-12-05T21:22:22.885-0700 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2014-12-05T21:22:23.804-0700 [initandlisten] connection accepted from 10.0.3.41:51725 #4 (2 connections now open)
+2014-12-05T21:22:24.621-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27018 is up
+2014-12-05T21:22:24.621-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27018 is now in state SECONDARY
+2014-12-05T21:22:24.622-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27019 is up
+2014-12-05T21:22:24.622-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27019 is now in state STARTUP2
+2014-12-05T21:22:29.788-0700 [conn2] replSet info voting yea for Jeffreys-MacBook-Pro.local:27018 (1)
+2014-12-05T21:22:30.632-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27018 is now in state PRIMARY
+2014-12-05T21:22:35.800-0700 [conn2] end connection 10.0.3.41:51717 (1 connection now open)
+2014-12-05T21:22:35.801-0700 [initandlisten] connection accepted from 10.0.3.41:51729 #5 (2 connections now open)
+2014-12-05T21:22:37.836-0700 [conn4] end connection 10.0.3.41:51725 (1 connection now open)
+2014-12-05T21:22:37.836-0700 [initandlisten] connection accepted from 10.0.3.41:51730 #6 (2 connections now open)
+2014-12-05T21:22:38.649-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27019 is now in state RECOVERING
+2014-12-05T21:22:38.894-0700 [rsSync] replSet initial sync pending
+2014-12-05T21:22:38.894-0700 [rsSync] replSet syncing to: Jeffreys-MacBook-Pro.local:27018
+2014-12-05T21:22:38.898-0700 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2014-12-05T21:22:38.898-0700 [rsSync] 	 added index to empty collection
+2014-12-05T21:22:38.899-0700 [rsSync] replSet initial sync drop all databases
+2014-12-05T21:22:38.899-0700 [rsSync] dropAllDatabasesExceptLocal 1
+2014-12-05T21:22:38.899-0700 [rsSync] replSet initial sync clone all databases
+2014-12-05T21:22:38.900-0700 [rsSync] replSet initial sync cloning db: admin
+2014-12-05T21:22:38.901-0700 [rsSync] replSet initial sync data copy, starting syncup
+2014-12-05T21:22:38.902-0700 [rsSync] oplog sync 1 of 3
+2014-12-05T21:22:38.902-0700 [rsSync] oplog sync 2 of 3
+2014-12-05T21:22:38.903-0700 [rsSync] replSet initial sync building indexes
+2014-12-05T21:22:38.903-0700 [rsSync] replSet initial sync cloning indexes for : admin
+2014-12-05T21:22:38.903-0700 [rsSync] oplog sync 3 of 3
+2014-12-05T21:22:38.904-0700 [rsSync] replSet initial sync finishing up
+2014-12-05T21:22:38.906-0700 [rsSync] replSet set minValid=5482847b:1
+2014-12-05T21:22:38.909-0700 [rsSync] replSet RECOVERING
+2014-12-05T21:22:38.909-0700 [rsSync] replSet initial sync done
+2014-12-05T21:22:39.685-0700 [rsBackgroundSync] replSet syncing to: Jeffreys-MacBook-Pro.local:27018
+2014-12-05T21:22:39.687-0700 [rsBackgroundSync] replset setting syncSourceFeedback to Jeffreys-MacBook-Pro.local:27018
+2014-12-05T21:22:39.912-0700 [rsSync] replSet SECONDARY
+2014-12-05T21:22:40.654-0700 [rsHealthPoll] replSet member Jeffreys-MacBook-Pro.local:27019 is now in state SECONDARY
+2014-12-05T21:23:05.867-0700 [conn5] end connection 10.0.3.41:51729 (1 connection now open)
+2014-12-05T21:23:05.868-0700 [initandlisten] connection accepted from 10.0.3.41:51753 #7 (2 connections now open)
+2014-12-05T21:23:07.906-0700 [conn6] end connection 10.0.3.41:51730 (1 connection now open)
+2014-12-05T21:23:07.907-0700 [initandlisten] connection accepted from 10.0.3.41:51754 #8 (2 connections now open)
+2014-12-05T21:23:07.956-0700 [clientcursormon] mem (MB) res:11 virt:2837
+2014-12-05T21:23:07.956-0700 [clientcursormon]  mapped (incl journal view):320
+2014-12-05T21:23:07.956-0700 [clientcursormon]  connections:2
+2014-12-05T21:23:07.956-0700 [clientcursormon]  replication threads:32
+2014-12-05T21:23:35.939-0700 [conn7] end connection 10.0.3.41:51753 (1 connection now open)
+2014-12-05T21:23:35.940-0700 [initandlisten] connection accepted from 10.0.3.41:51760 #9 (2 connections now open)
+2014-12-05T21:23:37.970-0700 [conn8] end connection 10.0.3.41:51754 (1 connection now open)
+2014-12-05T21:23:37.970-0700 [initandlisten] connection accepted from 10.0.3.41:51767 #10 (2 connections now open)
+2014-12-05T21:24:05.997-0700 [conn9] end connection 10.0.3.41:51760 (1 connection now open)
+2014-12-05T21:24:05.998-0700 [initandlisten] connection accepted from 10.0.3.41:51777 #11 (2 connections now open)
+2014-12-05T21:24:08.024-0700 [conn10] end connection 10.0.3.41:51767 (1 connection now open)
+2014-12-05T21:24:08.024-0700 [initandlisten] connection accepted from 10.0.3.41:51778 #12 (2 connections now open)

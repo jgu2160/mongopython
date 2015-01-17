@@ -1,0 +1,23 @@
+2014-12-05T21:18:44.177-0700 [initandlisten] MongoDB starting : pid=1004 port=27017 dbpath=/data/rs1 64-bit host=Jeffreys-MacBook-Pro.local
+2014-12-05T21:18:44.177-0700 [initandlisten] db version v2.6.5
+2014-12-05T21:18:44.177-0700 [initandlisten] git version: nogitversion
+2014-12-05T21:18:44.177-0700 [initandlisten] build info: Darwin miniyosemite.local 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2014-12-05T21:18:44.178-0700 [initandlisten] allocator: tcmalloc
+2014-12-05T21:18:44.178-0700 [initandlisten] options: { net: { port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs1", smallFiles: true }, systemLog: { destination: "file", path: "1.log" } }
+2014-12-05T21:18:44.178-0700 [initandlisten] exception in initAndListen: 10296 
+*********************************************************************
+ ERROR: dbpath (/data/rs1) does not exist.
+ Create this directory or give existing directory in --dbpath.
+ See http://dochub.mongodb.org/core/startingandstoppingmongo
+*********************************************************************
+, terminating
+2014-12-05T21:18:44.178-0700 [initandlisten] dbexit: 
+2014-12-05T21:18:44.178-0700 [initandlisten] shutdown: going to close listening sockets...
+2014-12-05T21:18:44.178-0700 [initandlisten] shutdown: going to flush diaglog...
+2014-12-05T21:18:44.179-0700 [initandlisten] shutdown: going to close sockets...
+2014-12-05T21:18:44.179-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2014-12-05T21:18:44.179-0700 [initandlisten] shutdown: lock for final commit...
+2014-12-05T21:18:44.179-0700 [initandlisten] shutdown: final commit...
+2014-12-05T21:18:44.179-0700 [initandlisten] shutdown: closing all files...
+2014-12-05T21:18:44.179-0700 [initandlisten] closeAllFiles() finished
+2014-12-05T21:18:44.180-0700 [initandlisten] dbexit: really exiting now
